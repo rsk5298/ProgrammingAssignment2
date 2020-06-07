@@ -1,8 +1,3 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
-
 makeCacheMatrix <- function(x = matrix()) {
         k <- NULL
   set <- function(y)            #Setting the value of the input matrix
@@ -20,6 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
        getinverse = getinverse)
 
 }
+
 
 cacheSolve <- function(x, ...) 
 {
